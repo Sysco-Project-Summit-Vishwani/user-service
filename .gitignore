@@ -31,3 +31,22 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Runtime Logs ###
+logs/
+*.log
+*.log.*
+
+### Secrets and Local Env ###
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+### Local Overrides ###
+src/main/resources/application-local.properties
+
+.DS_Store
